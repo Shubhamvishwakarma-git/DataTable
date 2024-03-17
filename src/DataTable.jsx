@@ -7,7 +7,7 @@ import axios from 'axios';
 
 const DataTable = () => {
     const[data, setData]= useState([]);
-    const[loading, setLoading]= useState(true);
+    // const[loading, setLoading]= useState(true);
 
 
     useEffect(()=>{
@@ -22,7 +22,7 @@ const DataTable = () => {
         .then(response =>{
             // console.log("data",response);
             setData(response.data);
-            setLoading(false);
+            // setLoading(false);
         })
         .catch(err =>{
             console.log("error",err);

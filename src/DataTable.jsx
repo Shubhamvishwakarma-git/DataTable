@@ -24,7 +24,7 @@ const DataTable = () => {
 
 
     const getData=()=>{
-        axios.get('https://file.notion.so/f/f/ca71608c-1cc3-4167-857a-24da97c78717/b041832a-ec40-47bb-b112-db9eeb72f678/sample-data.json?id=ce885cf5-d90e-46f3-ab62-c3609475cfb6&table=block&spaceId=ca71608c-1cc3-4167-857a-24da97c78717&expirationTimestamp=1710756000000&signature=DmaAPnhO_oLnKIH4CSJOp75oWDhpFtP-rLmr3NNkO0s&downloadName=sample-data.json')
+        axios.get('https://file.notion.so/f/f/ca71608c-1cc3-4167-857a-24da97c78717/b041832a-ec40-47bb-b112-db9eeb72f678/sample-data.json?id=ce885cf5-d90e-46f3-ab62-c3609475cfb6&table=block&spaceId=ca71608c-1cc3-4167-857a-24da97c78717&expirationTimestamp=1710878400000&signature=bYGjFgdpXm76u1IWUc-4ReRcrYFi5fqhLH0JCzD1cNk&downloadName=sample-data.json')
         .then(response =>{
             setData(response.data);
         })

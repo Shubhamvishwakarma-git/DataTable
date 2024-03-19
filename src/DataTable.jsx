@@ -96,7 +96,7 @@ const DataTable = () => {
         },
 
 
-        columnFilterDisplayMode: 'custom', //we will render our own filtering UI
+        
         enableFacetedValues: true,
         muiFilterTextFieldProps: ({ column }) => {
             return {
